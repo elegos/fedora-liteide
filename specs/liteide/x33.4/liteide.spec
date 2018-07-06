@@ -6,7 +6,7 @@
 
 Name:    liteide
 Version: %{version}
-Release: 1%{dist}
+Release: 2%{dist}
 Summary: LiteIDE is a simple, open source, cross-platform Go IDE
 
 Group:   Development/Tools
@@ -19,6 +19,8 @@ BuildRequires: git
 BuildRequires: qt-devel
 BuildRequires: make
 BuildRequires: golang
+
+Requires: golang
 
 %description
 IDE for editing and building projects written in the Go programming language
@@ -34,7 +36,6 @@ pushd %{srcdir}
   git fetch --all
   git checkout %{version}
   # Apply patches
-  find /home/makerpm/ -name desktop_entry.patch
   patch -p1 -i %{P:0}
 popd
 
