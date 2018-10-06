@@ -1,1 +1,1 @@
-../specs/liteide/x34.2/liteide.spec
+liteide.x34.3.spec

@@ -17,7 +17,7 @@ function say {
 
 externalSrc=""
 dockerBuildQuiet="-q"
-version="x34.1"
+version="x34.3"
 appName="liteide"
 imgName="fedora_build_${appName}"
 
