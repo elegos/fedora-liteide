@@ -1,0 +1,13 @@
+--- a/liteidex/liteide.desktop
++++ b/liteidex/liteide.desktop
+@@ -3,8 +3,8 @@
+ Type=Application
+ Name=LiteIDE
+ Comment=IDE for editing and building projects written in the Go programming language
+-#Exec=/... your liteide path .../liteide/bin/liteide
+-#Icon=/... your liteide path .../liteide/share/liteide/welcome/images/liteide128.xpm
++Exec=/usr/bin/liteide
++Icon=/usr/share/liteide/welcome/images/liteide400.png
+ Exec=liteide
+ Icon=liteide
+ Terminal=false
