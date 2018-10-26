@@ -5,7 +5,7 @@
 
 Name:    liteide
 Version: %{version}
-Release: 1%{dist}
+Release: 2%{dist}
 Summary: LiteIDE is a simple, open source, cross-platform Go IDE
 
 Group:   Development/Tools
@@ -99,7 +99,7 @@ install -m644 "${buildDir}/liteide.desktop" "%{buildroot}%{_datarootdir}/applica
 - Release x34.3
 * Mon Oct 01 2018 Giacomo Furlan <elegos@fastwebnet.it> - x34.2
 - Release x34.2
-* Mon Aug 25 2018 Giacomo Furlan <elegos@fastwebnet.it> - x34.1
+* Sat Aug 25 2018 Giacomo Furlan <elegos@fastwebnet.it> - x34.1
 - Release x34.1
 - https://github.com/visualfc/liteide/releases/tag/x34
 * Wed Jul 25 2018 Giacomo Furlan <elegos@fastwebnet.it> - x34
