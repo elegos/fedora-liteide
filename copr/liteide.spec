@@ -1,1 +1,1 @@
-./liteide.x36.spec
+./liteide.x36.1.spec

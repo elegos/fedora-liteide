@@ -3,7 +3,7 @@ WDIR=`pwd`
 
 buildRoot=/home/makerpm/rpmbuild
 targetAppName="liteide"
-targetVersion="x36"
+targetVersion="x36.1"
 
 case $1 in
   --clear|-c)
